@@ -23,8 +23,10 @@ candidateName = input.question("What is your name?");
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
   //};
 
-  for(let i = 0; i <= questions.length - 1; i++){
-    candidateAnswers.push(input.question(questions[i]));
+  for(i = 0; i <= questions.length - 1; i++){
+    
+    candidateAnswers[i] =  input.question(questions[i]);
+    
   };
 
 
@@ -38,7 +40,7 @@ candidateName = input.question("What is your name?");
   //let grade;
   //return grade;
 //}
-for(let i = 0; i <= correctAnswers.length; i++){
+for(let i = 0; i <= correctAnswers.length - 1; i++){
   console.log(`Correct Answer: ${correctAnswers[i]}. User Answer:${candidateAnswers[i]}`)
 };
 
