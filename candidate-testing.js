@@ -52,7 +52,7 @@ function gradeQuiz(candidateAnswers) {
   if(percent < 80){
     console.log(">>>Status: Failed<<<")
   } else {console.log(">>>Status: Passed<<<")}
-  return percent;
+  return grade;
 };
   
 
