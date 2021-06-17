@@ -15,7 +15,7 @@ let candidateAnswers = [];
 
 function askForName() {
   // TODO 1.1b: Ask for candidades name.
-candidateName = input.question("What is your name?");
+candidateName = input.question("What is your name? ");
 return candidateName;
 }
 
@@ -27,8 +27,8 @@ function askQuestion() {
       candidateAnswer = input.question(questions[i]);
       
       candidateAnswers.push(candidateAnswer)
-      console.log('Your answer:'+ candidateAnswers[i]);
-      console.log('Correct answer:'+ correctAnswers[i] + '\n');
+      console.log('Your answer: '+ candidateAnswers[i]);
+      console.log('Correct answer: '+ correctAnswers[i] + '\n');
     
   };
 };
